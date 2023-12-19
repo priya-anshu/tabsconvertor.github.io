@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar to Piano Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Guitar to Piano Converter</h1>
+    <img src="guitar_notes.jpg" height="600px" width="1252px">
+    <div id="container">
+        <p><b>Enter guitar notes separated by spaces:</b></p>
+        <input type="text" id="inputNotes" placeholder="E2 A3 D4 ...">
+        <button onclick="convertNotes()">Convert</button>
+        <div id="output"></div>
+    </div>
+    <script src="guitar.js"></script>
+</body>
+</html>
