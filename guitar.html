@@ -12,10 +12,18 @@
     <img src="guitar_notes.jpg" style="max-width: 100%;" alt="Guitar Notes">
     <div id="container">
         <p><b>Enter guitar notes separated by spaces:</b></p>
-        <input type="text" id="inputNotes" placeholder="E2 A3 D4 ...">
+        <input type="text" id="inputNotes" placeholder="E2 A3 D4 ..." onkeyup="checkEnter(event)">
         <button onclick="convertNotes()">Convert</button>
         <div id="output"></div>
     </div>
     <script src="guitar.js"></script>
+
+    <script>
+        function checkEnter(event) {
+            if (event.keyCode === 13) {
+                convertNotes();
+            }
+        }
+    </script>
 </body>
 </html>
