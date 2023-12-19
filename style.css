@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-    margin: 50px;
+    margin: 10px;
 }
 
 #container {
-    max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -21,12 +21,13 @@ input {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 2% 5%;
     background-color: #4caf50;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
 }
 
 button:hover {
@@ -35,4 +36,8 @@ button:hover {
 
 #output {
     margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
 }
